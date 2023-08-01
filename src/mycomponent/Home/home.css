@@ -1,0 +1,158 @@
+  .home {
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+ 
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  
+  .name {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .boi {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .resume,
+  .hireme {
+    background-color: black;
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 7px;
+  }
+  
+  .resume:hover,
+  .hireme:hover {
+    background-color:  #02241c;
+    color: white;
+  }
+  
+  .home-img {
+    /* margin-top: 2rem; */
+    border-top: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        overflow-x: hidden;
+  }
+  
+  .home-img img {
+    width: 40vmax;
+    object-fit: contain;
+    height: 50vmax;
+    /* width: 30vw;
+    height: auto;
+    border-radius: 50%; */
+  }
+ 
+  @media only screen and (max-width: 500px){
+
+    .home {
+      height: 120vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+    
+    .home-content {
+      text-align: center;
+      /* color: white; */
+    }
+    
+    .name {
+      font-size: 1.2rem;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    
+    .title {
+      font-size: 2.8rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    
+    .boi {
+      font-size: 0.8rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+    
+    .btn {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    
+    .resume,
+    .hireme {
+      background-color: black;
+      border: none;
+      padding: 1rem;
+      margin-right: 1rem;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      border-radius: 7px;
+    }
+    
+    .resume:hover,
+    .hireme:hover {
+      background-color: #02241c;
+      color: white;
+    }
+    
+    .home-img {
+      margin-top: 2rem;
+    }
+    
+    .home-img img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+
+  }
+

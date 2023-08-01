@@ -1,0 +1,52 @@
+{
+    "projects": [
+
+      {
+        "No":1,
+        "project_name": "Task Management App",
+        "description1": "Implemented comprehensive authentication features, including user registration, login, and user profile retrieval, to ensure secure access to task management functionalities.",
+        "description2": "Designed an intuitive and user-friendly interface, allowing users to effortlessly add, delete, and update tasks for seamless task management.",
+        "description3": "Leveraged MongoDB Atlas for secure storage and efficient querying of task data, while incorporating RESTful APIs with Express.js and dynamic React.js components to enhance user experience and provide real-time updates on task management operations.",
+        "tech": " ReactJs,NodeJs,ExpressJ,Mongodb ",
+        "year": "June 2023",
+        "link":"https://taskmangementapp.netlify.app"
+      },
+
+     {
+      "No":2,
+        "project_name": "Real Time Chat App",
+        "description1": "Designed and implemented an intuitive and visually appealing user interface using React.js and CSS, allowing users to send and receive messages, join chat rooms, and interact in real-time.",
+        "description2": "Utilized Express.js and Socket.IO to create a robust server that handles HTTP requests and enables real-time communication between the server and clients using WebSockets.",
+        "description3":"Developed a real-time chat application using Express.js, Socket.IO, React.js, CSS, deployed on Netlify for the frontend and Render for the backend.",
+        "tech": " ReactJs, ExpressJs, Socket.io, Css ",
+        "year": "April 2022",
+        "link":"https://chatapp0307.netlify.app"
+      },
+
+      {
+        "No":3,
+        "project_name": "Netflix Clone",
+        "description1": "Throughout the project, I demonstrated a strong understanding of React JS concepts, such as component-based architecture and state management. I also showed proficiency in CSS, using responsive design techniques to ensure the Netflix clone looked and worked well across a range of devices.",
+        "description2": "Additionally, I utilized the TMDb API to retrieve data about movies and TV shows, displaying this information in an intuitive and user-friendly manner.",
+        "year": "April 2022",
+        "link":"https://netflixclone0307.netlify.app/"
+      },
+      {
+        "No":4,
+        "project_name": "Task Management App",
+        "description1": "Implemented comprehensive authentication features, including user registration, login, and user profile retrieval, to ensure secure access to task management functionalities.",
+        "description2": "Designed an intuitive and user-friendly interface, allowing users to effortlessly add, delete, and update tasks for seamless task management.",
+        "description3": "Leveraged MongoDB Atlas for secure storage and efficient querying of task data, while incorporating RESTful APIs with Express.js and dynamic React.js components to enhance user experience and provide real-time updates on task management operations.",
+        "tech": " ReactJs,NodeJs,ExpressJ,Mongodb ",
+        "year": "June 2023",
+        "link":"https://taskmangementapp.netlify.app"
+      }
+      
+
+    ]
+  }
+
+
+  
+
+  
